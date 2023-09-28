@@ -10,7 +10,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     /* background: radial-gradient(circle, #f5f5f5e1, #909faf); */
   background: radial-gradient(circle, rgba(190,201,220,0),rgba(190,201,220,.4));
-  height: 100vh;
+  height: min-content;
 }
 
 * {
