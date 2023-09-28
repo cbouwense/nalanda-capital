@@ -1,13 +1,8 @@
 import { NextPage } from "next";
 import Navbar from "@/components/Navbar/Navbar";
 import Link from "next/link";
-import HoldingSection from "@/components/HoldingSection";
-import { useState } from "react";
 
 const Portfolio: NextPage = () => {
-  const [showTabOne, setShowTabOne] = useState(true);
-  const [showTabTwo, setShowTabTwo] = useState(false);
-
   return (
     <div>
       <Navbar />

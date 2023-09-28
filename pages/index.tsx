@@ -27,19 +27,19 @@ const Home: NextPage = () => {
                 Portfolio
               </Link>
               <a
-                href="/"
+                href="/investment-approach"
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-yellow"
               >
                 Investment Approach
               </a>
               <a
-                href="/about"
+                href="/team"
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-yellow"
               >
                 Team
               </a>
               <a
-                href="/Contact"
+                href="/contact"
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-yellow"
               >
                 Contact Us

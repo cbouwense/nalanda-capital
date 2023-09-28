@@ -1,13 +1,8 @@
 import { NextPage } from "next";
 import Navbar from "@/components/Navbar/Navbar";
 import Link from "next/link";
-import HoldingSection from "@/components/HoldingSection";
-import { useState } from "react";
 
 const Portfolio: NextPage = () => {
-  const [showTabOne, setShowTabOne] = useState(true);
-  const [showTabTwo, setShowTabTwo] = useState(false);
-
   return (
     <div>
       <Navbar />
@@ -22,19 +17,19 @@ const Portfolio: NextPage = () => {
                 Portfolio
               </Link>
               <a
-                href="/investment-approach"
+                href="/"
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-yellow"
               >
                 Investment Approach
               </a>
               <a
-                href="/team"
+                href="/about"
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-yellow"
               >
                 Team
               </a>
               <a
-                href="/contact"
+                href="/Contact"
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-yellow"
               >
                 Contact Us
