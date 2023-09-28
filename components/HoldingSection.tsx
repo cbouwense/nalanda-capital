@@ -10,13 +10,15 @@ const HoldingSection = ({ name, children }: HoldingSectionProps) => {
 
   return (
     <li className="mb-4">
-      <h3
-        onClick={() => setShowDescription((old) => !old)}
-        className="hover:text-light-blue hover:cursor-pointer"
-      >
-        {name}
-      </h3>
-      {showDescription && children}
+      <div className="bg-white shadow overflow-hidden rounded-lg p-4">
+        <h3
+          onClick={() => setShowDescription((old) => !old)}
+          className="hover:text-light-blue hover:cursor-pointer"
+        >
+          {name}
+        </h3>
+        {showDescription && children}
+      </div>
     </li>
   );
 };
