@@ -39,7 +39,7 @@ const Portfolio: NextPage = () => {
           </div>
         </nav>
       </section>
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="max-w-4xl mx-auto pb-6 px-4 sm:px-6 lg:px-8">
         <div className="bg-white shadow overflow-hidden rounded-lg">
           <div className="p-4">
             <h2 className="text-2xl font-medium mb-2 text-rust">
