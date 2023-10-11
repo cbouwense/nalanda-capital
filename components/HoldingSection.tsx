@@ -13,7 +13,7 @@ const HoldingSection = ({ name, children }: HoldingSectionProps) => {
       <div className="bg-white shadow overflow-hidden rounded-lg p-4">
         <h3
           onClick={() => setShowDescription((old) => !old)}
-          className="hover:text-light-blue hover:cursor-pointer"
+          className="hover:text-light-blue hover:cursor-pointer text-xl font-medium"
         >
           {name}
         </h3>
